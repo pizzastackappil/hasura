@@ -1,0 +1,10 @@
+SET check_function_bodies = false;
+INSERT INTO public.menu (id, image, weight, title, ingredients, price) VALUES ('14523e10-58a5-4365-9415-edce8cedd20a', 'manhattan.jpeg', 555, 'Піца Мангеттен', '(подвійна порція грибів), Гриби, Моцарела, Пепероні, Соус Альфредо', 215);
+INSERT INTO public.menu (id, image, weight, title, ingredients, price) VALUES ('443f4e7c-e0b6-4498-ae18-063954f73842', 'pepperoni-w-tomatoes.jpeg', 555, 'Піца Пепероні з томатами', 'Моцарела, Пепероні, Помідори, Соус Барбекю', 215);
+INSERT INTO public.menu (id, image, weight, title, ingredients, price) VALUES ('5f7051e3-c49f-40a1-baa2-af43b7f2c6c8', 'ham-w-mushrooms', 545, 'Піца Шинка та гриби', 'Шинка, Гриби, Моцарела, Соус PizzaStack', 215);
+INSERT INTO public.menu (id, image, weight, title, ingredients, price) VALUES ('13ceef72-ed1d-4dba-9525-12dd430032e4', 'texas.jpeg', 550, 'Піца Техас', 'Кукурудза, Цибуля, Гриби, Ковбаски баварські, Моцарела, Соус Барбекю', 215);
+INSERT INTO public.menu (id, image, weight, title, ingredients, price) VALUES ('a41d9dbd-1c84-40d3-be7a-b3cfd6717c53', 'pepperoni.jpeg', 560, 'Піца Пепероні', 'Моцарела, Пепероні, Соус PizzaStack', 250);
+INSERT INTO public.menu (id, image, weight, title, ingredients, price) VALUES ('bd23cc38-d203-46fb-b87b-612926bdec51', 'margarita.jpeg', 552, 'Піца Маргаріта', '(подвійна порція моцарели), Моцарела, Соус PizzaStack''', 230);
+INSERT INTO public.menu (id, image, weight, title, ingredients, price) VALUES ('4d681c3d-0a88-470c-9494-e010c9936054', 'barbecue.jpeg', 552, 'Піца Барбекю', 'Курка, Цибуля, Бекон, Гриби, Моцарела, Соус Барбекю', 252);
+INSERT INTO public.menu (id, image, weight, title, ingredients, price) VALUES ('142347af-43e6-4f03-8e81-e4f33120ceb2', 'grill-mix.jpeg', 569, 'Піца Гриль Мікс', 'Курка, Фрикадельки, Цибуля, Бекон, Болгарський перець, Моцарела, Соус Барбекю', 250);
+INSERT INTO public.menu (id, image, weight, title, ingredients, price) VALUES ('a40aee4f-07be-4bc1-8fca-bb1fcae7e264', 'carbonara.jpeg', 540, 'Піца Карбонара', 'Цибуля, Бекон, Шинка, Гриби, Моцарела, Соус Альфредо', 250);

@@ -1,7 +1,7 @@
 type Mutation {
-  register(
+  adminRegister(
     admin: AdminRegisterInput!
-  ): AdminRegisterQutput
+  ): AdminRegisterOutput
 }
 
 input AdminRegisterInput {
@@ -10,6 +10,10 @@ input AdminRegisterInput {
 }
 
 type AdminRegisterQutput {
+  accessToken: String!
+}
+
+type AdminRegisterOutput {
   accessToken: String!
 }
 

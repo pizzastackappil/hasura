@@ -1,9 +1,12 @@
 actions:
-  - name: register
+  - name: adminRegister
     definition:
       kind: synchronous
-      handler: http://host.docker.internal:8888/.netlify/functions/registation
+      handler: http://host.docker.internal:8888/.netlify/functions/admin-register
       forward_client_headers: true
+      headers:
+        - name: x-pizzastack-secret-key
+          value: mypizzastacksecretkey
     comment: Admin registration
 custom_types:
   enums: []
@@ -11,4 +14,5 @@ custom_types:
     - name: AdminRegisterInput
   objects:
     - name: AdminRegisterQutput
+    - name: AdminRegisterOutput
   scalars: []

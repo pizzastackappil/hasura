@@ -14,6 +14,10 @@ type Mutation {
   ): AdminRegisterOutput
 }
 
+type Query {
+  cloudinarySignature: CloudinareSignatureOutput
+}
+
 input AdminRegisterInput {
   username: String!
   password: String!
@@ -39,5 +43,13 @@ type AdminLoginOutput {
 type AdminGetMeQutput {
   id: String!
   username: String!
+}
+
+type CloudinareSignatureOutput {
+  signature: String!
+  apiKey: String!
+  timestamp: Int!
+  cloudName: String!
+  publicId: String!
 }
 
